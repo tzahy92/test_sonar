@@ -8,7 +8,6 @@ public class Main {
 
 
         int[] A = {3,5,1};
-        // write your code in Java SE 8
         int number = 0;
         for(int i = 0; i < A.length; i++){
             number += A[i]*17*(Math.pow(10,i));
